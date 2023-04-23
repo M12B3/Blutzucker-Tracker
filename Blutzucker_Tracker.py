@@ -18,13 +18,8 @@ import datetime
 #Layouts und Container
 col1, col2 = st.columns(2)
 
-with col1:
-    #Titel der App
-    st.title('Blutzucker-Tracker')
-    
-with col2:
-    st.image('Blutzucker.jpg', width=220)    
-
+#Name der App
+st.title("Blutzucker-Tracker")  
 
 # Erstelle das Hauptmenü
 menu = ['Werte erfassen', 'Werte löschen', 'Archiv', 'Persönliche Daten']
